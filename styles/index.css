@@ -1,0 +1,161 @@
+body {
+  background-color: #000;
+  width: 100vw;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif; }
+
+.slick-left {
+  width: 600px;
+  margin-right: 10px; }
+
+.slider-left img {
+  width: 600px;
+  height: 400px; }
+
+.slick-right {
+  width: 160px; }
+
+.slider-right {
+  outline: none; }
+
+.slider-right img {
+  width: 160px;
+  height: 100px; }
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 90%;
+  height: 450px;
+  margin: auto; }
+
+.slider-left {
+  position: relative; }
+
+.slider-text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(8, 8, 8, 0.7);
+  color: #fff;
+  padding-left: 35px;
+  width: 400px; }
+
+.info {
+  width: 300px; }
+
+.info a {
+  color: gray;
+  text-decoration: none; }
+
+.info a:hover {
+  color: black; }
+
+.info-contact {
+  color: gray; }
+
+.popular {
+  margin: auto;
+  width: 90%;
+  color: #fff; }
+
+.popular-header {
+  width: 90%;
+  margin-left: 150px;
+  margin-bottom: 50px; }
+
+.slick-center {
+  margin: auto;
+  width: 90%; }
+
+.slider-center {
+  width: 33%;
+  margin: auto;
+  text-align: center; }
+
+.slider-center img {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 40px rgba(217, 183, 0, 0.4); }
+
+.popular-header h1 {
+  display: inline-block; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  margin: auto;
+  margin-top: 50px;
+  width: 60%;
+  height: 40vh; }
+
+.message {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  border-radius: 3px; }
+
+.email {
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  margin-bottom: 10px; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+
+form a {
+  border: 1px solid blue;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 150px;
+  background-color: blue; }
+
+.support {
+  display: flex;
+  flex-direction: column; }
+
+.support a {
+  color: gray; }
+
+.support a:hover {
+  color: #fff; }
+
+.personal-rules {
+  margin-top: 80px;
+  color: gray; }
+
+.personal-rules a {
+  color: gray; }
+
+.personal-rules a:hover {
+  color: #fff; }
+
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto; }
+
+.mfp-hide {
+  display: none; }
+
+.slider-center {
+  outline: none; }
+
+.slick-active {
+  opacity: .5; }
+
+.slick-current {
+  opacity: 1; }

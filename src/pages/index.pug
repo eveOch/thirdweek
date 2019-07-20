@@ -1,0 +1,127 @@
+extends main
+block variables
+    - var pageTitle = 'Reproduct'
+
+block content
+    main
+        article(itemscope itemtype="http://schema.org/Product")
+            section.header-content
+                .info
+                    h2(itemprop="name") Репродукцио
+                    p(itemprop="description") Оффлайн магазин репродукций шедевров мирового искусства. 
+                    .info-contact
+                        p Санк-Петербург, ул. Адмирала Черокова, 18
+                        p +7 8112 960-22-01
+                        a(href="mailto:shop@reproduct.io") shop@reproduct.io
+                .slick-left(itemprop="offers" itemscope itemtype="http://schema.org/Offer")
+                    .slider-left
+                        img(src="/img/1.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") Вот жили ведь раньше люди..
+                            p(itemprop="price") 34.345 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                    .slider-left
+                        img(src="/img/2.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") Рыбка в рыбке, так бывает xD
+                            p(itemprop="price") 2.434 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                    .slider-left
+                        img(src="/img/3.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") А мне по шляпе ^^,
+                            p(itemprop="price") 4.455 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                    .slider-left
+                        img(src="/img/4.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") Избушка на курьих ножках
+                            p(itemprop="price") 9.786 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                    .slider-left
+                        img(src="/img/5.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") ОЙ, ВСЕЕЕЕ!
+                            p(itemprop="price") 1 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                    .slider-left
+                        img(src="/img/6.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") Люди ищут маньяка, в осеннее время
+                            p(itemprop="price") 120.666 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                    .slider-left
+                        img(src="/img/7.jpg", alt="" itemprop="image")
+                        .slider-text
+                            p.header(itemprop="name") Маньяк в осеннее время
+                            p(itemprop="price") 10.799 
+                                span(itemprop="priceCurrency" content="RUB") &#8381;
+                .slick-right
+                    .slider-right
+                        img(src="/img/1.jpg", alt="")
+                    .slider-right
+                        img(src="/img/2.jpg", alt="")
+                    .slider-right
+                        img(src="/img/3.jpg", alt="")
+                    .slider-right
+                        img(src="/img/4.jpg", alt="")
+                    .slider-right
+                        img(src="/img/5.jpg", alt="")
+                    .slider-right
+                        img(src="/img/6.jpg", alt="")
+                    .slider-right
+                        img(src="/img/7.jpg", alt="")
+            section.popular
+                .popular-header
+                    h2 Популярное
+                    p Нестареющая классика и бестселлеры. 
+                .slick-center
+                    .slider-center
+                        img(src="/img/1.jpg", alt="")
+                        .slider-text-center
+                            p.header Вот жили ведь раньше люди..
+                            p 34.345 &#8381;
+                    .slider-center
+                        img(src="/img/2.jpg", alt="")
+                        .slider-text-center
+                            p.header Рыбка в рыбке, так бывает xD
+                            p 2.434 &#8381;
+                    .slider-center
+                        img(src="/img/3.jpg", alt="")
+                        .slider-text-center
+                            p.header А мне по шляпе ^^,
+                            p 4.455 &#8381;
+                    .slider-center
+                        img(src="/img/4.jpg", alt="")
+                        .slider-text-center
+                            p.header Избушка на курьих ножках
+                            p 9.786 &#8381;
+    footer
+        .support
+            h1 Написать нам
+            p Заполните форму справа или отправте письмо на
+            a(href="mailto:shop@reproduct.io") shop@reproduct.io
+            .personal-rules
+                p Репродукцио, 2019
+                a(href="#text-popup" class="popup-content") Правила обработки персональных данных
+                div(id="text-popup" class="white-popup mfp-hide")
+                    p.
+                        Предоставляя свои персональные данные Пользователь дает согласие
+                        на обработку, хранение и использование своих персональных данных
+                        на основании ФЗ № 151-Ф3 "О персональных данных"
+                        от 27.07.2006г. в следующих целях:
+                        Осуществление клиенской поддержки;
+                        Получение Пользователем информации о маркетинговых событиях;
+        form
+            input(type="text" name="title" placeholder="Эл.почта" class="email" id="email")
+            p#result
+            textarea(name="area", class="message" placeholder="Сообщение")
+            //input(type="submit")
+            a(href="" id="validate") Отправить
+    script(src="js/jquery-3.4.1.min.js")
+    script(src="js/slick.min.js")
+    script(src="js/slick.js")
+    //- script(src="js/popup.js")
+    //- script(src="js/popup-fun.js")
+    //- script(src="js/validate.js")
+    script(src="js/build2.js")
